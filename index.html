@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Kaloja · Frontend-arkitekt med fokus på resultat. Med kraftfull kod, vacker design och coola idéer skapar jag eleganta webbplatser och kampanjer.</title>
+
+        <!-- Prefetch DNS for external assets -->
+        <link rel="dns-prefetch" href="//www.google-analytics.com">
+        <link rel="dns-prefetch" href="//fonts.googleapis.com">
+
+        <!-- Stylesheets -->
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:100,300,300italic,400,700' type='text/css'>
+        <link rel="stylesheet" href="/assets/css/main.css">
+
+        <!-- Meta -->
+        <meta name="description" content="Frontend-arkitekt med fokus på resultat. Med kraftfull kod, vacker design och coola idéer skapar jag eleganta webbplatser och kampanjer.">
+        <meta name="apple-mobile-web-app-title" content="Kaloja">
+        <link rel="shortcut icon" href="/img/icon.png">
+        <link rel="apple-touch-icon" href="/img/icon.png">
+
+        <!-- Google Analytics -->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-18283835-1', 'auto');
+          ga('send', 'pageview');
+        </script>
+    </head>
+    <body>
+        <!-- Outdated browser message -->
+        <div id="outdated"></div>
+
+        <nav class="site-nav">
+            <div class="wrapper">
+                <ul class="site-nav__list list-ui">
+                    <li class="site-nav__item">
+                        <a href="/#tjanster" class="site-nav__link">Tjänster</a>
+                    </li>
+                    <li class="site-nav__item">
+                        <a href="mailto:mattias.haal@gmail.com" class="site-nav__link">Kontakt</a>
+                    </li>
+                </ul>
+                <div class="site-nav__about">
+                    <p>Jag som står bakom Kaloja heter Mattias Haal. Jag arbetar som webbutvecklare och designer på Grand Public. Jag har stor passion för interaktionsdesign, gränssnittsdesign och konceptutveckling. Min bas är i Jönköping.</p>
+                    <img src="/img/profile.jpg" class="site-nav__about-img">
+                </div>
+            </div>
+        </nav>
+
+        <header class="header header--transparent">
+            <div class="wrapper wrapper--wide">
+                <div class="header-nav">
+                    <a href="/" class="header-nav__home">
+                        <div class="header-nav__logo">
+                            <img src="/img/logo.svg">
+                        </div>
+                    </a>
+                    <a href="#" class="header-nav__btn">
+                        <div class="header-nav__toggle"></div>
+                        <span class="header-nav__label">Om Kaloja</span>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <section class="hero">
+        	<div class="hero--overlay">
+                <div class="wrapper hero__vertical-align">
+                    <div class="row">
+                        <h1 class="hero__title">Webb och design</h1>
+                    </div>
+                    <div class="row">
+                        <a href="mailto:mattias.haal@gmail.com?subject=Nytt projekt" class="btn btn--positive">Anlita mig</a>
+                        <a href="#portfolio" class="btn btn--secondary">Portfolio</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <main>
+        	<section class="about">
+        		<div class="wrapper">
+                    <h3 class="about__title">Jag är en frontend-arkitekt med fokus på resultat. Med kraftfull kod, vacker design och coola idéer skapar jag eleganta webbplatser och kampanjer.</h3>
+                </div>
+        	</section>
+
+        	<section class="services" id="tjanster">
+        		<div class="wrapper">
+                    <ul class="services__list list-ui">
+                        <li class="services__item">
+                            <div class="divider">
+                                <p class="divider__title">Kraftfull kod</p>
+                            </div>
+                            <h2 class="services__title">Webbutveckling</h2>
+                            <p class="services__text">En modern webbplats fungerar på alla digitala enheter och är anpassad för sin målgrupp och levererar positiva resultat.</p>
+                        </li>
+                        <li class="services__item">
+                            <div class="divider">
+                                <p class="divider__title">Vacker design</p>
+                            </div>
+                            <h2 class="services__title">Grafisk design</h2>
+                            <p class="services__text">För att vinna marknadsandelar och synas bland befintliga och framtida kunder behövs ett snyggt och genomtänkt grafiskt material.</p>
+                        </li>
+                        <li class="services__item">
+                            <div class="divider">
+                                <p class="divider__title">Coola idéer</p>
+                            </div>
+                            <h2 class="services__title">Kommunikation</h2>
+                            <p class="services__text">För att nå ut med sin kommunikation krävs det att produkten ser bra ut, fungerar som förväntat och att strategin bakom är briljant.</p>
+                        </li>
+                    </ul>
+                </div>
+        	</section>
+
+        	<section class="parallax">
+        		<div class="parallax--overlay">
+                    <div class="wrapper parallax__vertical-align">
+                        <div class="row">
+                            <h2 class="parallax__title">Design gör skillnad</h2>
+                        </div>
+                    </div>
+                </div>
+        	</section>
+
+        	<section class="approach">
+        		<div class="wrapper">
+                    <div class="row">
+                        <ul class="approach__list list-ui">
+                            <li class="approach__item">
+                                <img src="/img/graph-analysis.svg">
+                                <h2 class="approach__title">Analys</h2>
+                                <p class="approach__text">Marknaden ses över på ett strategiskt sätt för att skapa en förståelse för uppdraget.</p>
+                            </li>
+                            <li class="approach__item">
+                            <img src="/img/graph-architect.svg">
+                                <h2 class="approach__title">Arkitektur</h2>
+                                <p class="approach__text">Med strategin som stöd arbetar jag med arkitekturen och tar fram koncept.</p>
+                            </li>
+                            <li class="approach__item">
+                                <img src="/img/graph-design.svg">
+                                <h2 class="approach__title">Design</h2>
+                                <p class="approach__text">Jag designar och utvecklar skräddarsydda gränssnitt och användarupplevelser.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        	</section>
+        </main>
+
+        <footer class="footer">
+            <div class="wrapper">
+                <div class="footer__copy">
+                    Kaloja arbetar med <b>webbutveckling</b> och <b>grafisk design</b>.
+                </div>
+                <div class="footer__social">
+                    <a class="footer__social--icon" href="https://www.linkedin.com/in/mattiashaal" target="_blank">
+                        <img src="/img/linkedin.svg">
+                    </a>
+                    <a class="footer__social--icon" href="https://twitter.com/mattiashaal" target="_blank">
+                        <img src="/img/twitter.svg">
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Scripts -->
+        <script src="/assets/js/script.js"></script>
+        <script src="/assets/js/headmove.js"></script>
+        <script src="/assets/js/smooth-scroll.min.js"></script>
+        <script src="/assets/js/class-list.min.js"></script>
+        <script src="/assets/js/outdated-browser.min.js"></script>
+
+        <script type="text/javascript">
+            function addLoadEvent(func) {
+                var oldonload = window.onload;
+                if (typeof window.onload != 'function') {
+                    window.onload = func;
+                } else {
+                    window.onload = function() {
+                        oldonload();
+                        func();
+                    }
+                }
+            }
+            addLoadEvent (
+            outdatedBrowser({
+            bgColor: '#f25648',
+            color: '#ffffff',
+            lowerThan: 'transform',
+            languagePath: "/assets/lang/sv.html"
+          })
+        );
+        </script>
+    </body>
+</html>
