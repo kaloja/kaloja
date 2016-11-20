@@ -1,3 +1,3 @@
 # Kaloja
 
-My site. Currently under development.
+An updated version of my portfolio is coming some time.
